@@ -1,0 +1,9 @@
+
+.incorrect-letter{
+    border: 2px solid;
+    padding: 5px;
+}
+.incorrectLetters-letters-list{
+    display: flex;
+    gap:calc(5px + 1vmin);
+}

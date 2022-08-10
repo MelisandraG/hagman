@@ -1,0 +1,6 @@
+.word{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    gap:calc(5px + 1vmin);
+}

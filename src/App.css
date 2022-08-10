@@ -1,0 +1,28 @@
+
+@font-face {
+  font-family: 'Schoolbell';
+  src: local('Schoolbell-Regular'), url(../public/fonts/Schoolbell-Regular.ttf) format('truetype');
+}
+
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 0px 40px 0px 40px;
+  font-family: 'Schoolbell','Courier New', Courier, monospace;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
